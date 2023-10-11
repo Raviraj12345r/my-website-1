@@ -1,0 +1,49 @@
+body{
+    padding: 5rem 0;
+    background: rgba(243, 243, 243);
+   color:red;
+    background-image: url(https://cdn.pixabay.com/photo/2017/12/10/20/56/feather-3010848_640.jpg);
+}
+.head{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #555555;
+}
+form{border: none solid black;
+    width: fit-content;
+
+}
+label{
+    background-color:#358597;
+    color: black;
+    color: white;
+}
+::placeholder{
+    color: red;
+}
+button{
+    background-color:black ;
+    color: aliceblue;
+}
+.gallery {
+  display:flex;
+  justify-content: space-between;
+  
+}
+
+.image {
+  flex: 1;
+  margin: 10px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+#result {
+  text-align: center;
+}
